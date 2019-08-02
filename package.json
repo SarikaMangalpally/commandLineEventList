@@ -1,0 +1,18 @@
+{
+  "name": "yarn-events",
+  "version": "1.0.0",
+  "description": "\"building event using yarn\"",
+  "main": "create.js",
+  "author": "sarika",
+  "license": "MIT",
+  "scripts": {
+    "create": "node create.js",
+    "list": "node list.js",
+    "show": "node show.js",
+    "delete": "node delete.js"
+  },
+  "dependencies": {
+    "inquirer": "^6.5.0",
+    "moment": "^2.24.0"
+  }
+}
